@@ -9,6 +9,10 @@ body{
 #systemlinks li a{
     
 }
+.skip{
+    position:absolute;
+    clip: rect(1px,1px,1px,1px);
+}
 
 
 
@@ -18,7 +22,11 @@ body{
     height:100px;
     width:100%;
     background-color:#28398A;
+    
 }   
+.center{
+    margin-left:300px;
+}
 .systemshortcuts{
     color:white;
     display:inline;
@@ -215,6 +223,7 @@ padding:5px;
 .footerblue{
     background-color:#3951C6;
     height:50px;
+    width:100%;
     margin:0px;
     padding:0px;
 }
@@ -226,8 +235,13 @@ padding:5px;
     font-size: 12px;
     
 }
-.fotterblue{
+#footer ul{
     margin-left:300px;
+}
+#footer li ul{
+    position:absolute;
+    clip: rect(1px,1px,1px,1px);
+    
 }
 #footer ul li{
     list-style:none;
