@@ -2,11 +2,21 @@ body{
     border: 0;
     padding: 0;
     margin: 0;
-    background-color:black;
-    font-family:arial;
+    background-color:#000;
+    background-image:url(http://pagead2.googlesyndication.com/pagead/imgad?id=CICAgKDj_5GYDBABGAEyCJElcwK3Ylkf);
+    background-repeat: repeat-x;
+    background-position: 0px 101px;
+    font-family:Arial;
     font-size:12px;
 }
-#systemlinks li a{
+.topbanner a{
+    font-size:14px;
+    font-family:GFCondensed;
+    font-weight:400;
+    font-style:normal;
+    text-decoration:none;
+    
+
     
 }
 .skip{
@@ -19,20 +29,39 @@ body{
 /* =================================Top Banner system shortcuts ============================*/
 .topbanner{
     
-    height:100px;
+    height:90px;
     width:100%;
     background-color:#28398A;
+    font-family:gfcondensed;
+    
     
 }   
+#systemlinks{
+    margin-left:250px;
+    font-size:14xp;
+}
 .center{
     margin-left:300px;
 }
+.logo{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    float:left;
+    margin-top:-5px;
+    margin-left:5px;
+    margin-right:5px;
+    
+}
 .systemshortcuts{
     color:white;
-    display:inline;
+    float:left;
     list-style:none;
-    margin:3px;
-    font-size: 12px;
+    margin:5px;
+    margin-left:10px;
+    margin-right:5px;
+    font-size: 14px;
     
 }
 .systemshortcuts:hover{
@@ -40,7 +69,9 @@ body{
     display:inline;
     list-style:none;
     margin:3px;
-    font-size: 12px;
+    margin-left:5px;
+    margin-right:5px;
+    font-size: 14px;
     background-color:purple;
     
 }
@@ -55,17 +86,33 @@ body{
 .moresystems{
     display:none;
     position:absolute;
+    
   }
   .moresystems1:hover{
    
     position:absolute;
   }
+ .search{
+    width:270px;
+    margin-top:0px;
+    height:23px;
+    border-radius: 28px;
+    -moz-border-radius: 28px;
+    -khtml-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    float:left;
+   
+ } 
+
+ 
 /* =================================Top Banner site links ======================*/
 .banner{
     background-color:#3951C6;
     height:50px;
     margin:0px;
     padding:0px;
+    border-top:1px solid #576BCE;
+    border-bottom:1px solid #576BCE;
 }
 .login{
     color:white;
@@ -79,6 +126,8 @@ body{
     display: inline;
     margin:10px;
     float:left;
+    font-size:15px;
+    margin-top:4px;
 }
 .sitelinks:hover{
     color:white;
@@ -87,14 +136,23 @@ body{
     margin:10px;
     float:left;
     background-color:purple;
+    margin-top:4px;
 }
 h2{
     font-size:12px
 }
 /* ================================= Centrer content ==========================*/
+
+
+.addspacetop{
+    height:70px;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
 .centerblock{
     padding:15px;
-    width:60%;
+    width:900px;
     margin-left:auto;
     margin-right:auto;
     background-color:#F2F2F2;
@@ -138,7 +196,7 @@ h2{
     float:right;
 }
 .top10odd{
-padding:5px;
+ padding:5px;
  background-color:#E8E8E8;
  overflow: hidden;
  border-bottom: 1px solid #4D4D4D;
@@ -156,13 +214,18 @@ padding:5px;
     margin:15px;
 }
 .pollofday{
-    padding:1px;
+    margin-bottom:10px;
+    padding:10px;
     font-size:20px;
     background-color:#3951C6;
     overflow:hidden;
 }
+form ul li{
+    list-style:none;
+}
 .pollarea{
-    padding:15px;
+    padding:5px;
+    padding-top:0px;
     background-color:#FFFFFF;
     overflow:hidden;
 }
@@ -199,6 +262,9 @@ padding:5px;
 .centerlinks{
     font-size:13px;
     
+}
+.clear{
+    clear:both;
 }
 /* ================================= Buttons ===============================================*/
 .button{
